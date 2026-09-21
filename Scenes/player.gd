@@ -23,3 +23,11 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+
+func _on_coin_body_entered(body: Node2D) -> void:
+	$"../Player/Game_ended".visible = true
+	$"../TileMapLayer".visible = false
+	$"../Coin".visible = false
+	$Sprite2D.visible = false
+	get_tree().paused = true

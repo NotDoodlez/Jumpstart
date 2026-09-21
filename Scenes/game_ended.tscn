@@ -1,9 +1,26 @@
 [gd_scene format=3 uid="uid://3gk5vtof4bq5"]
 
-[node name="Game ended" type="Control" unique_id=2142544025]
+[node name="Game_ended" type="Control" unique_id=2142544025]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2010675169]
+layout_mode = 0
+offset_top = -1.0
+offset_right = 1158.0
+offset_bottom = 652.0
+color = Color(0.75759935, 0.571753, 0.57123643, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1016787585]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 185.0
+offset_right = 1014.0
+offset_bottom = 426.0
+theme_override_font_sizes/font_size = 87
+text = "Game over!! this is 
+all for jumpstart!"
