@@ -15,6 +15,10 @@ run/main_scene="uid://bx67oh70sftgn"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
+[audio]
+
+general/default_playback_type.web=0
+
 [display]
 
 window/stretch/mode="canvas_items"
